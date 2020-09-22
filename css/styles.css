@@ -114,15 +114,17 @@ margin: 0 auto;
 }
 /* =================> END BUTTON STYLE Studio <================ */
 .start-page  {
-    text-align: center;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
     padding-top: 200px;
     /* padding-left: 452px; */
     /* padding-right: 452px; */
     /* padding: 452px; */
     background-color: #2F303A;
-    height: 600px;
+    height: 600px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
 }
 
 
