@@ -258,7 +258,9 @@ padding-bottom: 20px;
 
 /* =================> WE DOING <================ */
 .we-doing .container {
+    padding-top: 47px;
     padding-bottom: 94px;
+    
     /* background-color: tomato; */
 }
 .we-doing > h3 {
@@ -315,7 +317,8 @@ min-width: 270px;
 }
 
 .features-container {
-    padding: 94px 0px;
+    padding-top: 94px;
+    padding-bottom: 47px;
 }
 /* .features-list {
     padding: 94px 0px;
@@ -336,10 +339,11 @@ min-width: 270px;
 .team {
     background: #F5F4FA;
 }
-.team .container {
+.team-container {
     /* background-color: tomato; */
     /* display: flex; */
-    padding:  94px 0;
+    padding-top:  94px ;
+    padding-bottom:  94px ;
     
 }
 .team .container > h2 {
@@ -443,11 +447,8 @@ padding-top: 60px;
 
 /* =================> FOOTER STYLE <================ */
 .footer {
-
-
     background: #2F303A;
-    
-    
+
 }
 .footer-mail-link, .footer-tel-link {
     
