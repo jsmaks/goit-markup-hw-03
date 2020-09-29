@@ -82,7 +82,7 @@ color: var(--color-text-grey)
 .active {
     color: var(--accent-color);
 }
-.navigation-list-item, .address-list-item:not(:last-child) {
+.navigation-list-item:not(:last-child), .address-list-item:not(:last-child) {
     margin-right: 50px;
 
 }
@@ -417,6 +417,14 @@ color: var(--color-text-title);
 /* =================> END TEAM FONT STYLE <================ */
 
 /* =================> Logo WebStudio <================ */
+.footer-logo {
+    /* display: flex; */
+    /* padding: 0;
+    margin: 0; */
+    margin-bottom: 20px;
+    
+
+}
 .logo {
     font-family: var(--secondary-font);
     font-size: 26px;
@@ -426,6 +434,7 @@ color: var(--color-text-title);
     letter-spacing: 0.03em;
     color: #000000;
     margin-right: 93px;
+    /* margin-bottom: 20px; */
 }
 .logo-color {
     color: #2196F3;
@@ -476,10 +485,10 @@ padding-top: 60px;
         letter-spacing: 0.03em;
         color: #FFFFFF;
 }
-.footer-list {
-     padding-top: 20px;
+/* .footer-list { */
+     /* padding-top: 20px; */
     /* padding-bottom: 60px; */ */
-}
+/* } */
 .footer-list-item:not(:last-child) {
      
         margin-bottom: 9px;
